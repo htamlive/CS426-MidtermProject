@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title=""
+        android:id="@+id/btnStore"
+        android:icon="@drawable/baseline_storefront_24"
+        android:enabled="true"
+        android:checkable="true"
+        />
+    <item android:title=""
+        android:id="@+id/btnGift"
+        android:icon="@drawable/baseline_card_giftcard_24"
+        android:enabled="true"
+        android:checkable="true"
+        />
+    <item android:title=""
+        android:id="@+id/btnOrder"
+        android:icon="@drawable/baseline_playlist_add_check_24"
+        android:enabled="true"
+        android:checkable="true"
+        />
+</menu>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            >
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/americano"
+                android:id="@+id/ivRedeemCoffee"
+                android:layout_weight="2"/>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:layout_weight="1">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvCartCoffeeName"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Americano"/>
+
+            <TextView
+                    android:text="Small, Less Ice, Single Shot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvRedeemCoffeeDescription"
+                    />
+
+            <TextView
+                    android:text="x 1"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvRedeemCoffeeQuantity"/>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+                android:text="1000 pts"
+                android:textAlignment="center"
+                app:cornerRadius="20dp"
+                android:paddingRight="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnRedeemCoffeePoint"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:layout_weight="1.8"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.21125060" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/cello</item>
+        <item name="colorPrimaryVariant">@color/cello_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+
+    </style>
+
+
+    <style name="Theme.21125060.OngoingOrder" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryOngoing</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkOngoing</item>
+        <item name="colorAccent">@color/colorAccentOngoing</item>
+        <item name="android:windowBackground">@color/colorBackgroundOngoing</item>
+        <item name="android:textColorPrimary">@color/colorTextPrimaryOngoing</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondaryOngoing</item>
+    </style>
+
+    <!-- Past Order Theme -->
+    <style name="Theme.21125060.PastOrder" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryPast</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkPast</item>
+        <item name="colorAccent">@color/colorAccentPast</item>
+        <item name="android:windowBackground">@color/colorBackgroundPast</item>
+        <item name="android:textColorPrimary">@color/colorTextPrimaryPast</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondaryPast</item>
+
+    </style>
+</resources>

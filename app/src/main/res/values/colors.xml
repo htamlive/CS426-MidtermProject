@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_500">#FF018786</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="coffee_200">#FFA1887F</color>
+    <color name="coffee_500">#FF795548</color>
+    <color name="coffee_700">#FF5D4037</color>
+    <color name="coffee_900">#FF3E2723</color>
+    <color name="milk_200">#FFFFF8E1</color>
+    <color name="milk_500">#FFFFECB3</color>
+    <color name="milk_700">#FFFFE082</color>
+    <color name="milk_900">#FFFFD54F</color>
+    <color name="sugar_200">#FFFFF3E0</color>
+    <color name="sugar_500">#FFFFE0B2</color>
+    <color name="sugar_700">#FFFFCC80</color>
+    <color name="sugar_900">#FFFFB74D</color>
+    <color name="water_200">#FFB3E5FC</color>
+    <color name="water_500">#FF03A9F4</color>
+    <color name="water_700">#FF0288D1</color>
+    <color name="water_900">#FF01579B</color>
+    <color name="tea_200">#FFC5E1A5</color>
+    <color name="tea_500">#FF8BC34A</color>
+    <color name="tea_700">#FF689F38</color>
+    <color name="tea_900">#FF33691E</color>
+    <color name="cello">#FF324A59</color>
+    <color name="cello_200">#FFB0BEC5</color>
+    <color name="cello_500">#FF607D8B</color>
+    <color name="cello_700">#FF455A64</color>
+    <color name="cello_900">#FF263238</color>
+    <color name="silver_200">#FFEEEEEE</color>
+    <color name="silver_500">#FF9E9E9E</color>
+    <color name="silver_700">#FF616161</color>
+    <color name="silver_900">#FF212121</color>
+    <color name="silver">#c0c0c0</color>
+
+    <color name="colorPrimaryOngoing">#FF9800</color> <!-- Orange -->
+    <color name="colorPrimaryDarkOngoing">#F57C00</color> <!-- Darker shade of Orange -->
+    <color name="colorAccentOngoing">#2196F3</color> <!-- Blue -->
+    <color name="colorBackgroundOngoing">#FFFFFF</color> <!-- White background -->
+    <color name="colorTextPrimaryOngoing">#212121</color> <!-- Black text -->
+    <color name="colorTextSecondaryOngoing">#757575</color> <!-- Gray text -->
+
+    <!-- Past Order Theme Colors -->
+    <color name="colorPrimaryPast">#4CAF50</color> <!-- Green -->
+    <color name="colorPrimaryDarkPast">#388E3C</color> <!-- Darker shade of Green -->
+    <color name="colorAccentPast">#FF5722</color> <!-- Deep Orange -->
+    <color name="colorBackgroundPast">#FFFFFF</color> <!-- White background -->
+    <color name="colorTextPrimaryPast">#212121</color> <!-- Black text -->
+    <color name="colorTextSecondaryPast">#757575</color> <!-- Gray text -->
+
+    <color name="light_red">#ffe6e6</color>
+
+</resources>
